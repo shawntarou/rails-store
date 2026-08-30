@@ -11,4 +11,5 @@ Rails.application.routes.draw do
 =end
 
   resources :products # does everything above ^^^
+  root "products#index"
 end
